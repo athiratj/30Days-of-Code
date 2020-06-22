@@ -1,9 +1,10 @@
 let count = 10;
+var id;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".clicked");
 
-btns.forEach(function(btn)  {
-    btn.addEventListener("click", function (event) {
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (event) {
     const style = event.currentTarget.classList;
     if (style.contains("decrease")) {
       count--;
@@ -13,26 +14,45 @@ btns.forEach(function(btn)  {
       }
     } else if (style.contains("increase")) {
       count++;
+    } else if (style.contains("reset")) {
+      count = 10;
     } else if (style.contains("counter")) {
-      if(count>0){
-        var id = setInterval(() => {
-        count--; 
-          value.textContent = count;
-          if (count == 0) {
-            
-            alert("Reached 0!");
-            clearInterval(id);
-          }
-      }, 1000);
+      var btn = document.getElementById("btn");
+      if (btn.textContent == "Start") {
+        if (count <= 0) {
+          btn.textContent = "Start";
+          count = 0;
+          alert("Count reached 0!");
+        } else {
+          btn.textContent = "Stop";
+        }
+      } else {
+        btn.textContent = "Start";
       }
-    }
-    else {
+
+      if (!id) {
+        id = setInterval(decrementCount, 1000);
+      } else {
+        clearInterval(id);
+        id = null;
+      }
+    } else {
       count = 0;
-      }
-      value.textContent = count;
-      
+    }
+    value.textContent = count;
   });
 });
 
-
+function decrementCount() {
+  count--;
+  value.textContent = count;
+  if (count <= 0) {
+    
+    alert("Counter reached 0!");
+    btn.textContent = "Start";
+    clearInterval(id);
+    id = null;
+  }
+  
+}
 

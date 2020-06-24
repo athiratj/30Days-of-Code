@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Welcomecls from './components/Textcls';
+import Welcomefun from './components/Textfun';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Welcomecls name="Athira"/>
+      <Welcomefun name="Athira"/>
     </div>
   );
 }

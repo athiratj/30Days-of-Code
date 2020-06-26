@@ -9,3 +9,5 @@
 - [How to Host Your React App on GitHub Pages for Free](https://medium.com/better-programming/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb)
 
 - [Deployment](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
+
+- [React.Component](https://reactjs.org/docs/react-component.html)

@@ -11,3 +11,11 @@
 - [Deployment](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
 
 - [React.Component](https://reactjs.org/docs/react-component.html)
+
+- [React Tutorial W3Schools](https://www.w3schools.com/react/default.asp)
+
+- [Virtual DOM and Internals](https://reactjs.org/docs/faq-internals.html#:~:text=The%20virtual%20DOM%20(VDOM)%20is,This%20process%20is%20called%20reconciliation.&text=They%20may%20also%20be%20considered,virtual%20DOM%E2%80%9D%20implementation%20in%20React.)
+
+- [How Are Function Components Different from Classes?](https://overreacted.io/how-are-function-components-different-from-classes/)
+
+- [A complete guide to getting started with React debugging](https://raygun.com/blog/react-debugging-guide/)

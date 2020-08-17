@@ -19,3 +19,7 @@
 - [How Are Function Components Different from Classes?](https://overreacted.io/how-are-function-components-different-from-classes/)
 
 - [A complete guide to getting started with React debugging](https://raygun.com/blog/react-debugging-guide/)
+
+- [Reactstrap](https://reactstrap.github.io/)
+
+- [Imperative vs. Declarative Programming - Pros and Cons](https://www.netguru.com/blog/imperative-vs-declarative)

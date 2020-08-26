@@ -16,6 +16,12 @@
 
 - [React.Component](https://reactjs.org/docs/react-component.html)
 
+- [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+
+- [React Component Patterns](https://levelup.gitconnected.com/react-component-patterns-ab1f09be2c82)
+
+- [Functional Stateless Components in React](https://www.jackfranklin.co.uk/blog/functional-stateless-components-react/)
+
 - [How to Host Your React App on GitHub Pages for Free](https://medium.com/better-programming/how-to-host-your-react-app-on-github-pages-for-free-919ad201a4cb)
 
 - [Deployment](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)

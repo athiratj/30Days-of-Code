@@ -15,6 +15,7 @@
 - [Functional Stateless Components in React](https://www.jackfranklin.co.uk/blog/functional-stateless-components-react/)
 
 ###### React Router
+- [Single page apps in depth](http://singlepageappbook.com/)
 - [React Router Documentation](https://reactrouter.com/)
 - [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [React Router DOM: Setup, essential components, and parameterized routes](https://blog.logrocket.com/react-router-dom-set-up-essential-components-parameterized-routes-505dc93642f1/)
